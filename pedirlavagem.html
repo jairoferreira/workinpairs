@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pedir Lavagem</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            background: #BCF7FF;
+        }
+
+        .nav__list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            /*border: 1px solid red; super dica */
+            width: 300px;
+        }
+
+        main {
+            background: #EAF7FF;
+        }
+
+        button {
+            border: none;
+            cursor: pointer;
+            background: none;
+        }
+
+        .botao {
+            padding: 6px 12px;
+            border-radius: 5px;
+            background: #8FF2FF;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+            background: #BCF7FF;
+        }
+
+        .footer__item {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <img src="./img/turingwash-icon.svg" alt="Logo Turing Wash">
+        <nav>
+            <ul class="nav__list">
+                <li>Meus Carros</li>
+                <li>Minhas Lavagens</li>
+                <li><button>Sair</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <img src="./img/turingwash-logo.svg" alt="Logo Turing Wash">
+        <nav>
+            <ul>
+                <li>Sobre</li>
+                <li>FAQ</li>
+                <li>Contatos</li>
+                <li>Termos de Uso</li>
+            </ul>
+        </nav>
+        <div class="footer__item">
+            <span> @TuringWash </span>
+
+            <span>
+                2002. TuringWash. Todos os direitos reservados </span>
+        </div>
+    </footer>
+
 </body>
+
 </html>
