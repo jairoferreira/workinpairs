@@ -1,12 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TuringWash</title>
+    <link rel="icon" href="https://ituring.com.br/favicon.ico">
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/header.css" rel="stylesheet" type="text/css" />
+    <link href="css/meuscarros.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="header__img">
+            <img src="img/turingwash-logo.svg" alt="Logomarca TuringWash" id="logo-turing-wash">
+        </div>
+        <div class="header__links">
+            <div>Meus carros</div>
+            <div>Minhas lavagens</div>
+            <button id="exit-button">Sair</button>
+        </div>
+    </header>
+    <main>
+        <div id="page-title">
+            <h1>Meus carros</h1>
+        </div>
+        <section>
+            <article class="my-cars">
+                <div class="car-data">
+                    <h1 class="car-name">Nissan Kicks</h1>
+                    <p class="car-year">2018</p>
+                </div>
+                <div class="delete-car">
+                    <button class="delete-car__button">Excluir carro</button>
+                </div>
+            </article>
+            <article class="my-cars">
+                <div class="car-data">
+                    <h1 class="car-name">Chevrolet Onix</h1>
+                    <p class="car-year">2015</p>
+                </div>
+                <div class="delete-car">
+                    <button class="delete-car__button">Excluir carro</button>
+                </div>
+            </article>
+            <div class="my-cars__add-button">
+                <button id="add-car">Adicionar carro</button>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
