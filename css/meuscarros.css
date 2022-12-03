@@ -49,3 +49,11 @@
     width: auto;
     height: 30px;
 }
+
+@media screen and (max-width: 768px){
+
+    .my-cars{
+        margin: 0 0 20px 0;
+        width: auto;
+    }
+}
