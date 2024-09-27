@@ -1,0 +1,59 @@
+.my-cars{
+    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    border-radius: 8px;
+    margin-bottom: 20px
+}
+
+.car-data{
+    margin: 10px 0 0 10px
+}
+
+.car-name{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.delete-car{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 10px 10px 0
+}
+
+.delete-car__button{
+    font-size: 14px;
+    background-color: #FF9B9B;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 130px;
+    height: 30px;
+}
+
+.my-cars__add-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#add-car{
+    font-size: 16px;
+    background-color: #8FF2FF;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px){
+
+    .my-cars{
+        margin: 0 0 20px 0;
+        width: auto;
+    }
+}

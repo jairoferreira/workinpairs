@@ -1,0 +1,43 @@
+.header{
+    background-color: #BCF7FF;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__img{
+    align-items: center;
+    margin: 0px 0px 10px 15px
+}
+
+#logo-turing-wash{
+    height: 50px;
+}
+
+.header__links{
+    width: 60%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    justify-content: flex-end;
+}
+
+#exit-button{
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    background-color: #8FF2FF;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    margin-right: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
